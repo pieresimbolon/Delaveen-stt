@@ -16,3 +16,8 @@ This program can be used to help users communicate with people who speak a forei
 
 ## How to run it
 Download : [here](https://github.com/pieresimbolon/Delaveen-stt/releases/tag/v0.1)
+
+## Disclaimer 
+This is an ameteur project, use at your own risk.
+
+## License
