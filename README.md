@@ -15,7 +15,6 @@ The subtitle.py file contains the DisplaySubtitle class that creates a tkinter w
 This program can be used to help users communicate with people who speak a foreign language. However, it is important to note that automatic translations are not always accurate and can lead to misunderstandings that can affect communication."
 
 ## How to run it
-
 Btw semakin baku bahasa yang digunakan, akan semakin baik hasil terjemahaannya. 
 Download : [here](https://github.com/pieresimbolon/Delaveen-stt/releases/tag/v0.1)
 
