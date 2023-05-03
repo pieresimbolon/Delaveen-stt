@@ -16,23 +16,21 @@ This program can be used to help users communicate with people who speak a forei
 
 ## How to run it
 
-Download code
-
 Install library
 
-Speech Recognition
+**Speech Recognition**
 
 ```pip install SpeechRecognition```
 
-Google translate
+**Google translate**
 
 ```pip install googletrans```
 
-Pyaudio
+**Pyaudio**
 
-```pip install pipwin``` and ```pipwin install pyaudio```
+```pip install pipwin``` then```pipwin install pyaudio```
 
-then
+Download the code then run **subtitle.py**
 
 
 
