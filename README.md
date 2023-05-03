@@ -15,9 +15,6 @@ The subtitle.py file contains the DisplaySubtitle class that creates a tkinter w
 This program can be used to help users communicate with people who speak a foreign language. However, it is important to note that automatic translations are not always accurate and can lead to misunderstandings that can affect communication."
 
 ## How to run it
-
-Install library
-
 **Speech Recognition**
 
 ```pip install SpeechRecognition```
@@ -32,10 +29,7 @@ Install library
 
 Download the code then run **subtitle.py**
 
-
-
-
-Btw, the more standardized the language used, the better the translation will be.
+the more standardized the language used, the better the translation will be.
 
 ## Disclaimer 
 This is an ameteur project, use at your own risk.
