@@ -3,8 +3,6 @@
 Delaveen is a simple Python program that can translate speech in Indonesian language to English language in real-time. This program uses the speech_recognition module from the SpeechRecognition library to record speech from the microphone and the googletrans module from the googletrans library to translate the text into English. The program also uses the tkinter module from the Tkinter library to create a graphical user interface (GUI) that displays the translated text as subtitles.
 
 ## How it works
-
- **Delaveen** is made up of 2 main python programs.
  
 "Its a simple program that utilizes the SpeechRecognition and Googletrans libraries to record the user's voice through the microphone and translate the conversation from Indonesian to English in real-time.
 
