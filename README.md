@@ -19,7 +19,7 @@ This program can be used to help users communicate with people who speak a forei
 Install library
 
 Speech Recognition
-'''pip install SpeechRecognition'''
+```pip install SpeechRecognition```
 
 Google translate
 '''pip install googletrans'''
