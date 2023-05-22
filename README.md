@@ -1,16 +1,14 @@
 # Delaveen
 
-Delaveen is a simple Python program that can translate speech in Indonesian language to English language in real-time. This program uses the speech_recognition module from the SpeechRecognition library to record speech from the microphone and the googletrans module from the googletrans library to translate the text into English. The program also uses the tkinter module from the Tkinter library to create a graphical user interface (GUI) that displays the translated text as subtitles.
+ini adalah program Python yang sangat2 sederhana yang dapat menerjemahkan ucapan dari bahasa Indonesia ke bahasa Inggris secara real-time. dengan menggunakan modul speech_recognition dari library SpeechRecognition untuk menangkap ucapan dari mikrofon (awalanya ingin menggunakan (Whisper AI), dan modul googletrans dari perpustakaan googletrans untuk menerjemahkan teks ke dalam bahasa Inggris (awalnya saya ingin menggunakan deepl). Selain itu, program ini menggunakan modul tkinter dari perpustakaan tkinter untuk membuat antarmuka pengguna grafis (GUI) yang menampilkan teks terjemahan sebagai subtitle.
 
 ## How it works
  
-"Its a simple program that utilizes the SpeechRecognition and Googletrans libraries to record the user's voice through the microphone and translate the conversation from Indonesian to English in real-time.
+File voice_translate.py berisi fungsi yang disebut record_and_translate yang menggunakan objek Recognizer dari SpeechRecognition untuk merekam suara pengguna melalui mikrofon. Selanjutnya, fungsi tersebut menggunakan Googletrans untuk menerjemahkan teks rekaman dari bahasa Indonesia ke bahasa Inggris. Terakhir, fungsi menambahkan teks asli dan terjemahannya ke antrian, yang akan digunakan oleh file subtitle.py untuk menampilkan teks terjemahan di layar.
 
-The voice_translate.py file contains the record_and_translate function that uses the Recognizer object from SpeechRecognition to record the user's voice through the microphone. Then, the function uses Googletrans to translate the recorded text from Indonesian to English. Finally, the function adds the original text and its translation to a queue, which will be used by the subtitle.py file to display the translated text on the screen.
+File subtitle.py berisi kelas DisplaySubtitle, yang membuat jendela tkinter dengan label yang menampilkan teks terjemahan. Kelas ini juga memiliki metode process_queue yang terus menerus memeriksa antrian dan menampilkan teks terjemahan baru yang ditemukan pada label. Selain itu, kelas menggunakan utas latar belakang untuk terus memproses antrean. Terakhir, program utama memanggil fungsi mainloop dari tkinter untuk menjalankan GUI dengan lancar.
 
-The subtitle.py file contains the DisplaySubtitle class that creates a tkinter window with a label that will display the translated text. This class also has a process_queue method that will continuously check the queue and display any new translated text found on the label. The class also uses a thread that runs in the background to continuously process the queue. Finally, the main program calls the mainloop function from tkinter to run the GUI.
-
-This program can be used to help users communicate with people who speak a foreign language. However, it is important to note that automatic translations are not always accurate and can lead to misunderstandings that can affect communication."
+Program ini dapat membantu pengguna dalam berkomunikasi dengan individu yang berbicara bahasa asing. Namun, penting untuk diperhatikan bahwa terjemahan otomatis tidak selalu akurat dan dapat menyebabkan kesalahpahaman yang dapat memengaruhi komunikasi.
 
 ## How to run 
 **Speech Recognition**
@@ -25,11 +23,7 @@ This program can be used to help users communicate with people who speak a forei
 
 ```pip install pipwin``` then```pipwin install pyaudio```
 
-Download the code then run **subtitle.py**
+Download dan jalankan **subtitle.py**
 
-the more standardized the language used, the better the translation will be.
+semakin baku bahasa yang digunakan, semakin baik hasil terjemahannya.
 
-## Disclaimer 
-This is an ameteur project, use at your own risk.
-
-## License
