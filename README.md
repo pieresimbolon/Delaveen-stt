@@ -1,6 +1,6 @@
 # Delaveen
 
-ini adalah program coba-coba menggunakan Python yang sangat sederhana yang dapat menerjemahkan ucapan dari bahasa Indonesia ke bahasa Inggris secara real-time. dengan menggunakan modul speech_recognition dari library SpeechRecognition untuk menangkap ucapan dari mikrofon (awalanya ingin menggunakan (Whisper AI), dan modul googletrans dari perpustakaan googletrans untuk menerjemahkan teks ke dalam bahasa Inggris (awalnya saya ingin menggunakan deepl). Selain itu, program ini menggunakan modul tkinter dari perpustakaan tkinter untuk membuat antarmuka pengguna grafis (GUI) yang menampilkan teks terjemahan sebagai subtitle.
+ini adalah program iseng-iseng menggunakan Python yang sangat sederhana yang dapat menerjemahkan ucapan dari bahasa Indonesia ke bahasa Inggris secara real-time. dengan menggunakan modul speech_recognition dari library SpeechRecognition untuk menangkap ucapan dari mikrofon (awalanya ingin menggunakan (Whisper AI), dan modul googletrans dari perpustakaan googletrans untuk menerjemahkan teks ke dalam bahasa Inggris (awalnya saya ingin menggunakan deepl). Selain itu, program ini menggunakan modul tkinter dari perpustakaan tkinter untuk membuat antarmuka pengguna grafis (GUI) yang menampilkan teks terjemahan sebagai subtitle.
 
 ## How it works
  
